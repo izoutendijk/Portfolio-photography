@@ -47,8 +47,9 @@ p {
 
 .hero {
   text-align: center;
-  /* margin: 276px 135px 310px 135px; */
-  padding: 100px 200px;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image: url("/images/Selfportrait.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
