@@ -3,8 +3,8 @@ font-family: 'Roboto', sans-serif; */
 :root {
   --main-font: "Roboto", sans-serif;
   --button-font: "Montserrat", sans-serif;
-  --main-color: #ffffff;
-  --text-color: #202020;
+  --main-color: #202020;
+  --text-color: #ffffff;
 }
 
 body {
@@ -31,8 +31,8 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 100;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
 }
 
 .btn-branding {
@@ -47,7 +47,11 @@ p {
 
 .hero {
   text-align: center;
-  margin: 276px 135px 310px 135px;
+  /* margin: 276px 135px 310px 135px; */
+  padding: 100px 200px;
+  background-image: url("/images/Selfportrait.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero h1,
