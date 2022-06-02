@@ -59,8 +59,10 @@ p {
 
 .hero-text {
   position: absolute;
-  top: 10%;
-  bottom: 10%
+  top: 50px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
 }
 
 .hero-text h1,
