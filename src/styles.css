@@ -1,12 +1,61 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --button-font: "Montserrat", sans-serif;
+  --main-color: #ffffff;
+  --text-color: #202020;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 72px;
+  line-height: 84px;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.btn-branding {
+  font-family: var(--button-font);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  background-color: var(--text-color);
+  color: var(--main-color);
+  border-radius: 50px;
+}
+
+.hero {
+  text-align: center;
+  margin: 276px 135px 310px 135px;
+}
+
+.hero h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-size: 24px;
+  line-height: 28px;
 }
