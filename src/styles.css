@@ -114,6 +114,12 @@ h2,
   margin-top: 80px;
 }
 
+.client-content h2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--text-color);
+}
+
 @media (max-width: 960px) {
   h1,
   .content-container h1 {
