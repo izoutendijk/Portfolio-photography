@@ -36,7 +36,6 @@ p {
 .btn-branding {
   font-family: var(--button-font);
   font-weight: bold;
-  text-transform: uppercase;
   padding: 15px 40px;
   background-color: var(--text-color);
   color: var(--main-color);
@@ -57,8 +56,9 @@ p {
   right: 0;
 }
 
-.hero-text h1,
-h2 {
+h1,
+h2,
+.btn-branding {
   text-transform: uppercase;
 }
 
@@ -77,6 +77,11 @@ h2 {
 #projects .btn-branding {
   border-radius: 10px;
   padding: 5px 20px;
+}
+
+.about-me-container h2 {
+  font-size: 18px;
+  color: #f65282;
 }
 
 @media (max-width: 960px) {
@@ -105,20 +110,19 @@ h2 {
     text-align: center;
   }
 
-.hero {
-  margin-top: 10px;
-}
+  .hero {
+    margin-top: 10px;
+  }
 
   .hero-text {
-  padding: 20px 20px;
-  top: 0px;
-  bottom: 0px;
-  line-height: 10px;
-}
+    padding: 20px 20px;
+    top: 0px;
+    bottom: 0px;
+    line-height: 10px;
+  }
 
-.hero-text p {
-  font-size: 12px;
-  line-height: 1;
-}
-
+  .hero-text p {
+    font-size: 12px;
+    line-height: 1;
+  }
 }
