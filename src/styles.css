@@ -79,6 +79,14 @@ h2,
   padding: 5px 20px;
 }
 
+.about-me-container {
+  margin-top: 50px;
+}
+
+.about-me-container h1 {
+  font-size: 64px;
+  line-height: 75px;
+}
 .about-me-container h2 {
   font-size: 18px;
   color: #f65282;
