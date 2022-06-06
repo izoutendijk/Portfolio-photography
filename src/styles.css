@@ -83,6 +83,10 @@ h2,
   margin-top: 50px;
 }
 
+.about-me-container img {
+  width: 100%;
+}
+
 .about-me-container h1 {
   font-size: 64px;
   line-height: 75px;
@@ -92,8 +96,26 @@ h2,
   color: #f65282;
 }
 
+.about-me-container .btn-social {
+  color: var(--text-color);
+}
+
+.styles-container .btn-branding {
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #2d2727;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.about-me-container .btn-contact {
+  padding: 20px 80px;
+  margin-top: 80px;
+}
+
 @media (max-width: 960px) {
-  h1 {
+  h1,
+  .about-me-container h1 {
     font-size: 45px;
     line-height: 1;
   }
@@ -132,5 +154,28 @@ h2,
   .hero-text p {
     font-size: 12px;
     line-height: 1;
+  }
+
+  .about-me-container-text {
+    margin-top: 30px;
+  }
+
+  .about-me-container .btn-contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+}
+
+@media (max-width: 280px) {
+  .about-me-container .styles-container h2 {
+    justify-content: center;
+  }
+
+  .about-me-container .styles-container a {
+    display: block;
+    margin: 10px 10px;
   }
 }
