@@ -31,8 +31,8 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 100;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
 }
 
 .btn-branding {
@@ -82,11 +82,17 @@ h2 {
     line-height: 1;
   }
 
-  .hero-text h2 {
+  p {
+    font-size: 15px;
+  }
+
+  .hero-text h2,
+  #projects h2 {
     font-size: 18px;
   }
 
-  p {
-    font-size: 15px;
+  .btn-branding {
+    padding: 10px 20px;
+    font-size: 12px;
   }
 }
