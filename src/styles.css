@@ -5,6 +5,7 @@ font-family: 'Roboto', sans-serif; */
   --button-font: "Montserrat", sans-serif;
   --main-color: #202020;
   --text-color: #ffffff;
+  --paragraph-color: #f65282;
 }
 
 body {
@@ -33,6 +34,33 @@ p {
   font-weight: 100;
 }
 
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+nav ul {
+  padding: 20px;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  transition: all 100ms ease-in-out;
+  color: var(--paragraph-color);
+}
+
 .btn-branding {
   font-family: var(--button-font);
   font-weight: bold;
@@ -40,13 +68,12 @@ p {
   background-color: var(--text-color);
   color: var(--main-color);
   border-radius: 50px;
-  transition: ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .hero {
   text-align: center;
   position: relative;
-  margin-top: 50px;
 }
 
 .hero-text {
@@ -81,7 +108,7 @@ h2,
 }
 
 .content-container {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .content-container img {
@@ -94,11 +121,7 @@ h2,
 }
 .content-container h2 {
   font-size: 18px;
-  color: #f65282;
-}
-
-.content-container .btn-social {
-  color: var(--text-color);
+  color: var(--paragraph-color);
 }
 
 .styles-container .btn-branding {
@@ -112,6 +135,11 @@ h2,
 .content-container .btn-contact {
   padding: 20px 80px;
   margin-top: 80px;
+}
+
+.btn-social {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .client-content h2 {
@@ -151,10 +179,6 @@ h2,
     text-align: center;
   }
 
-  .hero {
-    margin-top: 10px;
-  }
-
   .hero-text {
     padding: 20px 20px;
     top: 0px;
@@ -180,6 +204,11 @@ h2,
 }
 
 @media (max-width: 280px) {
+  nav li {
+    display: inline-block;
+    margin: 0px 15px 0px 10px;
+  }
+
   .content-container .styles-container h2 {
     justify-content: center;
   }
