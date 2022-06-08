@@ -207,6 +207,13 @@ footer .footer-content {
   }
 }
 
+.contact-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   #projects h2 {
     text-align: center;
