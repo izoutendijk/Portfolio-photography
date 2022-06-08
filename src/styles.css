@@ -192,6 +192,19 @@ footer .footer-content {
     padding: 10px 20px;
     font-size: 12px;
   }
+
+  footer {
+    margin-top: 40px;
+  }
+
+  footer .social-links {
+    padding: 20px 5px 0;
+  }
+
+  footer p {
+    font-size: 10px;
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -221,6 +234,15 @@ footer .footer-content {
     justify-content: center;
     padding: 20px 10px;
   }
+
+  footer .social-links {
+    padding: 20px 2px 0;
+  }
+
+  footer p {
+    font-size: 10px;
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 280px) {
@@ -236,5 +258,13 @@ footer .footer-content {
   .content-container .styles-container a {
     display: block;
     margin: 10px 10px;
+  }
+
+  footer .social-links {
+    padding: 20px 2px 0;
+  }
+
+  footer p {
+    font-size: 5px;
   }
 }
