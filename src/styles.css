@@ -131,16 +131,28 @@ h2,
   background-color: var(--secondary-color);
   border: 1px solid var(--text-color);
   color: var(--text-color);
+  transition: all 100ms ease-in-out;
 }
 
-.content-container .btn-contact {
+.styles-container .btn-branding:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+
+.styles-container .content-container {
   padding: 20px 80px;
   margin-top: 80px;
 }
 
 .btn-social {
   color: var(--text-color);
+  background-color: var(--main-color);
   text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-social:hover {
+  color: var(--paragraph-color);
 }
 
 .client-content h2 {
@@ -235,7 +247,7 @@ footer .footer-content {
     margin-top: 30px;
   }
 
-  .content-container .btn-contact {
+  .content-container-text .btn-contact {
     margin-top: 40px;
     display: flex;
     justify-content: center;
